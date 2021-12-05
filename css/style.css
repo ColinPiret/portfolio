@@ -1,0 +1,572 @@
+/* variables-constantes */
+
+html {
+
+    scroll-behavior: smooth;
+
+    --primary: rgb(0, 0, 0);
+    --secondary: rgb(17, 19,  18);
+    --linkcolor: rgb(255, 255, 255);
+    --iconcolor: rgb(255, 255, 255);
+    --textcolor: rgb(255, 255, 255);
+    --sizetext: 12px;
+    --sizetitle1: 1.6rem;
+    --sizetitle2: 1.6rem;
+    --sizelink: .5rem;
+}
+
+body {
+
+
+     font-family: 'Roboto',sans-serif;
+     font-family: 'Arima Madurai', cursive;
+     font-size: var(--sizetext);
+
+    color:var(--textcolor);
+    background-color: var(--primary);
+    width: 100%;
+}
+
+
+section{padding: 3rem;}
+
+
+h1 {font-family: 'DM Serif Text', serif;}
+
+h2 {
+    font-family: 'DM Serif Text', serif;
+    text-align: center;
+    margin:2rem 0 2rem 0;
+}
+
+
+a {
+    text-decoration: none;
+    color: var(--linkcolor);
+}
+
+.btn {
+    padding: 10px;
+    border:solid;
+    border-width: 1px;
+    border-radius: 20px;
+    border-color:var(--textcolor);
+    background-color: unset;
+    transition: .3s;
+}
+
+.btn:hover {
+    background-color:  white;
+    color: black;
+}
+
+/* Smartphone */
+
+/* header */
+
+header{
+   background-color:var(--primary);
+   background-image: url(../images/pexels-eberhard-grossgasteiger-1287075.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position-y: -100px;
+}
+
+header div {
+    padding: 1rem;
+}
+
+header img{
+    height: 50px;
+    height: 50px;
+    filter: invert();
+}
+
+/* Nav */
+
+nav {
+    position: relative;
+    }
+
+nav h1 {
+    padding: 1rem;
+}
+
+
+
+nav li{
+padding: 5px;
+text-transform: uppercase;
+}
+
+
+
+nav li::after{
+    display: block;
+    content: "";
+    width: 0;
+    height: 1px;
+    background: white;
+    transition:width .4s;
+}
+
+nav li:hover::after{
+    width: 100%;
+    height: 1px;
+    background: white;
+}
+
+/* burgermenu */
+
+.burgermenu-icon {
+    display: block;
+    position: absolute;
+    right: 0;
+    font-size: 1rem;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+
+/* links */
+
+.navigation {
+display: none;
+transition: ease-in-out .3s;
+}
+
+
+.navigation li{
+    padding: 5px;
+    font-size: .5rem;
+}
+
+/*  links burger menu open */
+
+.responsive {
+ display: flex;
+ flex-direction: column;
+ position: fixed;
+ right: 0;
+ background-color: rgba(0,0,0, 0.5);
+ transition:all ease-in-out .3s;
+ border-top-left-radius:15px ;
+}
+
+
+
+.up-scroll{
+
+    margin-right: 0.3rem;
+    position: fixed;
+    right: 0;
+    bottom:0;
+
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    vertical-align: baseline;
+
+}
+
+.slider{
+
+font-size: 1rem;
+ text-align: center;
+ padding: 2rem;
+}
+
+.slider p{font-family:'Rancho', cursive;}
+
+.reseaux{
+
+    display: flex;
+    justify-content: center;
+    
+}
+
+.reseaux ul{
+
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.reseaux li{
+    margin: 1rem;
+    padding: .5rem;
+}
+
+.reseaux a{
+    font-size: .7rem;
+    transition: .3s;
+}
+
+.reseaux a:hover{
+    color: rgb(136, 136, 136);
+}
+
+/* section about */
+
+.About {
+    background-color: var(--secondary);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container-about{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 .1rem 0 .3rem;
+}
+
+.container-about{
+    vertical-align: center;
+}
+
+.container-about img {
+    height: 200px;
+    width:200px;
+    object-fit: cover;
+    padding: 10px;
+    margin-right: 1rem;
+    filter: saturate(0.5);
+    border-radius: 100px;
+    background-color: unset;
+}
+
+.container-about p {
+width: 50vh;
+padding: 0 5rem 0 5rem;
+}
+
+/* section skills */
+
+.Skills div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.container-skills div{
+    padding: 1rem;
+    border-width: 1px;
+    border-color: white;
+}
+
+.skill-left {border-right: solid;}
+
+.skill-right {border-left: solid;}
+
+/* section experience */
+
+.Experience {
+    background-image: url(../images/pexels-pixabay-531321.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* Timeline Experience */
+
+/* timeline barre  */
+.timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .timeline::after {
+    content: '';
+    position: absolute;
+    width: 3px;
+    background-color: var(--textcolor);
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+  }
+  
+  /* Container around content */
+  .container {
+    padding: 10px 40px;
+    position: relative;
+    background-color: unset;
+    width: 50%;
+  }
+  
+  /* The circles on the timeline */
+  .container::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -11px;
+    background-color: var(--textcolor);
+    border: 1px solid var(--textcolor);
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+  }
+  
+  /* container to the left */
+  .left {
+    left: 0;
+   
+  }
+  
+  /* container to the right */
+  .right {
+    left: 50%;
+  }
+  
+  /* arrows to the left container (pointing right) */
+  .left::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    right: 30px;
+    border: medium solid var(--textcolor);
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent white;
+  }
+  
+  /* arrows to the right container (pointing left) */
+  .right::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    left: 30px;
+    border: medium solid var(--textcolor);
+    border-width: 10px 10px 10px 0;
+    border-color: transparent var(--textcolor) transparent transparent;
+  }
+  /* Fix the circle for containers on the right side */
+  .right::after {
+    left: -14px;
+  }
+  /* The actual content */
+  .content {
+    padding: 20px 30px;
+    background-color: unset;
+    position: relative;
+    border-bottom: solid var(--textcolor) 1px;
+  }
+
+ /* images portfolio */
+ .photos-container img,.gallery img{
+     height: 100px;
+     width: 100px;
+     margin: 0.5rem;
+     object-fit: cover;
+     border : solid 1px white;
+     transition: .3s;
+ }
+
+.photos-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.photos-container img:hover{filter: opacity(0.5);}
+
+/* gallery complete portfolio */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.gallery img:hover{filter: opacity(0.5);}
+
+.btn-more {
+   display: flex;
+   justify-content: center;
+   margin-top: 3rem;
+}
+
+.container-btn-accueil{
+
+
+    margin-top: 0.5rem;
+    text-align: center;
+
+}
+
+/* section temoignages */
+.Temoignage {
+    background-image: url(../images/pexels-kaique-rocha-775201.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container-temoignages{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgba(0,0,0, 0.5);
+}
+.container-temoignages div{margin: 3rem;}
+
+.container-temoignages p{font-weight: 600;}
+   
+/* section about */
+.section-Contact1 {
+    display: flex;
+    justify-content: center;
+    background-color:  var(--secondary);
+}
+
+.btn-contact {
+    margin: 1rem 50% 0 50%;
+    border-top : solid ;
+    border-bottom: solid;
+    border-width: 1px;
+    padding: 5rem;
+}
+
+/* pagecontact */
+.section-Contact2{background-color: var(--secondary);}
+
+/* formulaire contact */
+form {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+form input {
+    margin: 40px;
+    border: unset;
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: white;
+    outline: none;
+    background-color: unset;
+    font-size: var(--sizetext);
+}
+
+form input::placeholder{color: white;}
+
+.Submit {
+    padding: 10px;
+    margin: 20px;
+    border:solid;
+    border-width: 1px;
+    border-radius: 20px;
+    border-color: white;
+    color: white;
+    background-color: unset;
+    transition: .3s;
+}
+
+.Submit::placeholder{color: white;}
+
+.Submit:hover{
+    background-color:  white;
+    color: black;
+}
+
+/* footer */
+footer {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    border-top: solid 1px white;
+    padding: 1rem;
+}
+
+footer ul{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    font-size: 15px;
+}
+
+footer li{padding: 1rem;
+}
+
+footer p{margin: 2rem;}
+
+footer img{
+    height: 50px;
+    height: 50px;
+    filter: invert();
+}
+
+/* Responsive */
+@media only screen and (min-width: 700px) {
+
+    header{
+        height: 50vh;
+        background-position-y: -200px;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    nav ul {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    nav li{padding: 10px;}
+   
+    .navigation {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: unset;}
+
+    .navigation li{padding: 10px;}
+
+    .navigation a {font-size: var(--sizelink);}
+
+    .navigation.responsive{
+        background-color: unset;
+        position: unset;
+    }
+
+    .burgermenu-icon{display: none;}
+
+   
+   /* section about */
+    .container-about img {
+        height: 250px;
+        width:250px;
+        border-radius: 200px;
+    }
+
+    .container-about p {padding: 1rem 5rem 0 5rem;}
+
+.photos-container img,.gallery img  {
+            height: 140px;
+                width: 140px;
+        }
+        footer ul{
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
+            font-size: 15px;
+        }
+        footer ul li{padding: 2rem 3rem 0 3rem;}
+
+        
+}
+
