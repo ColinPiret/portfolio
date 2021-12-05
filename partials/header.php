@@ -58,7 +58,7 @@
         </div>
 
         <a href="#" >
-           <img src="images/angle-up-solid.svg" class="up-scroll">
+           <img src="../images/angle-up-solid.svg" class="up-scroll">
         </a>
 
       </header>
