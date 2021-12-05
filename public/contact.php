@@ -1,6 +1,6 @@
 <?php
 
-require_once 'partials/header.php'?>
+require_once '../partials/header.php' ?>
 
 <section id="section-Contact2" class="section-Contact2">
 
@@ -28,7 +28,7 @@ require_once 'partials/header.php'?>
 </section>
 
 
-<?php require_once 'partials/footer.php'; ?>
+<?php require_once '../partials/footer.php'; ?>
 
 
     

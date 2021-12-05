@@ -1,7 +1,7 @@
 
 <?php
 
-require_once 'partials/header.php'?>
+require_once '../partials/header.php' ?>
 
 
     
@@ -12,7 +12,7 @@ require_once 'partials/header.php'?>
     <div class="container-about">
 
     <div>
-        <img src="images/pexels-jamiesx-co-4242520.jpg" alt="pdp" class="pdp">
+        <img src="../images/pexels-jamiesx-co-4242520.jpg" alt="pdp" class="pdp">
     </div>
 
     <div>
@@ -131,38 +131,38 @@ require_once 'partials/header.php'?>
 
 
       <div>
-          <a href="images/pexels-francesco-ungaro-1671325.jpg" data-lightbox="mygallery" data-title="Dark Forest">
-              <img src="images/pexels-francesco-ungaro-1671325-small.jpg" alt="">
+          <a href="../images/pexels-francesco-ungaro-1671325.jpg" data-lightbox="mygallery" data-title="Dark Forest">
+              <img src="../images/pexels-francesco-ungaro-1671325-small.jpg" alt="">
           </a>
      </div>
         
        <div>
-           <a href="images/pexels-gianluca-grisenti-4215113.jpg" data-lightbox="mygallery" data-title="Small Village">
-               <img src="images/pexels-gianluca-grisenti-4215113-small.jpg" alt="">
+           <a href="../images/pexels-gianluca-grisenti-4215113.jpg" data-lightbox="mygallery" data-title="Small Village">
+               <img src="../images/pexels-gianluca-grisenti-4215113-small.jpg" alt="">
            </a>
       </div>
 
       <div>
-          <a href="images/pexels-guillaume-meurice-1894350.jpg" data-lightbox="mygallery" data-title="Jelly Fish">
-              <img src="images/pexels-guillaume-meurice-1894350-small.jpg" alt="">
+          <a href="../images/pexels-guillaume-meurice-1894350.jpg" data-lightbox="mygallery" data-title="Jelly Fish">
+              <img src="../images/pexels-guillaume-meurice-1894350-small.jpg" alt="">
           </a>
      </div>  
 
       <div>
-          <a href="images/pexels-jeremy-bishop-2922672.jpg" data-lightbox="mygallery" data-title="Dolphin">
-              <img src="images/pexels-jeremy-bishop-2922672-small.jpg" alt="">
+          <a href="../images/pexels-jeremy-bishop-2922672.jpg" data-lightbox="mygallery" data-title="Dolphin">
+              <img src="../images/pexels-jeremy-bishop-2922672-small.jpg" alt="">
           </a>
      </div> 
 
       <div>
-          <a href="images/pexels-markus-spiske-1679772.jpg" data-lightbox="mygallery" data-title="River">
-              <img src="images/pexels-markus-spiske-1679772-small.jpg" alt="">
+          <a href="../images/pexels-markus-spiske-1679772.jpg" data-lightbox="mygallery" data-title="River">
+              <img src="../images/pexels-markus-spiske-1679772-small.jpg" alt="">
           </a>
      </div>  
 
       <div>
-          <a href="images/pexels-michael-block-3225517.jpg" data-lightbox="mygallery" data-title="Gate">
-              <img src="images/pexels-michael-block-3225517-small.jpg" alt="">
+          <a href="../images/pexels-michael-block-3225517.jpg" data-lightbox="mygallery" data-title="Gate">
+              <img src="../images/pexels-michael-block-3225517-small.jpg" alt="">
           </a>
      </div> 
     
@@ -259,7 +259,7 @@ require_once 'partials/header.php'?>
 </section>
 
 
-<?php require_once 'partials/footer.php'; ?>
+<?php require_once '../partials/footer.php'; ?>
 
 
     

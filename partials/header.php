@@ -4,10 +4,10 @@
 	<meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" href="css/icofont.min.css">
-	<link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/lightbox.min.css">
+    <link rel="stylesheet" href="../css/icofont.min.css">
+	<link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/lightbox.min.css">
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
@@ -28,16 +28,16 @@
             <!-- unicode logo burger menu-->
            <a class="burgermenu-icon" onclick="myFunction()">&#9776</a>
 
-           <h1><a href="index.php">F.L</a></h1>
+           <h1><a href="../public/index.php">F.L</a></h1>
               <div id="navigation" class="navigation">
                 <ul>
-                  <li><a href="index.php">Home</a></li>
-                  <li><a href="index.php#About">About</a></li>
-                  <li><a href="index.php#Skills">Skills</a></li>
-                  <li><a href="index.php#Experience">Experience</a></li>
-                  <li><a href="index.php#Portfolio">Portfolio</a></li>
-                  <li><a href="index.php#Temoignage">Temoignage</a></li>
-                  <li><a href="contact.php">Contact</a></li>
+                  <li><a href="../public/index.php">Home</a></li>
+                  <li><a href="../public/index.php#About">About</a></li>
+                  <li><a href="../public/index.php#Skills">Skills</a></li>
+                  <li><a href="../public/index.php#Experience">Experience</a></li>
+                  <li><a href="../public/index.php#Portfolio">Portfolio</a></li>
+                  <li><a href="../public/index.php#Temoignage">Temoignage</a></li>
+                  <li><a href="../public/contact.php">Contact</a></li>
                 </ul>
               </div>
 
